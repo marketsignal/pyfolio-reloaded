@@ -1,7 +1,17 @@
 [project]
 name = "pyfolio-reloaded"
-version = "0.1.0"
 requires-python = '>=3.7'
+dynamic = [
+    "version",
+    "readme",
+    "license",
+    "authors",
+    "maintainers",
+    "classifiers",
+    "dependencies",
+    "optional-dependencies",
+    "description",
+]
 
 [build-system]
 requires = [
